@@ -3,7 +3,8 @@ RBush
 
 *This is a temporary fork of [rbush](https://github.com/mourner/rbush) by Volodymyr Agafonkin with fixed dependencies. It will be removed if the original library is updated.*
 
-=====
+---
+
 
 RBush is a high-performance JavaScript library for 2D **spatial indexing** of points and rectangles.
 It's based on an optimized **R-tree** data structure with **bulk insertion** support.
