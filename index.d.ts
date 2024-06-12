@@ -74,6 +74,17 @@ export default class RBush<T> {
   search(box: BBox): T[];
 
   /**
+   * Returns an array of data items (points or rectangles) that the given
+   * bounding box contains.
+   *
+   * Note that the search method accepts a bounding box in `{minX, minY, maxX,
+   * maxY}` format regardless of the data format.
+   *
+   * @param box The bounding box in which to search.
+   */
+  searchContains(box: BBox): T[];
+
+  /**
    * Returns all items contained in the tree.
    */
   all(): T[];
