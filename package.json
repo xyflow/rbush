@@ -2,10 +2,10 @@
   "name": "@xyflow/rbush",
   "version": "1.0.0",
   "description": "Temporary fork of rbush by Vladimir Agafonkin with fixed dependencies. High-performance 2D spatial index for rectangles (based on R*-tree with bulk loading and bulk insertion algorithms)",
-  "homepage": "https://github.com/mourner/rbush",
+  "homepage": "https://github.com/xyflow/rbush",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mourner/rbush.git"
+    "url": "git://github.com/xyflow/rbush.git"
   },
   "keywords": [
     "spatial",
