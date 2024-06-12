@@ -1,6 +1,8 @@
 RBush
 =====
 
+*This is a temporary fork of [rbush](https://github.com/mourner/rbush) by Volodymyr Agafonkin with fixed dependencies. It will be removed if the original library is updated.*
+
 RBush is a high-performance JavaScript library for 2D **spatial indexing** of points and rectangles.
 It's based on an optimized **R-tree** data structure with **bulk insertion** support.
 
@@ -24,9 +26,7 @@ click to perform search under the cursor.
 
 ## Install
 
-Install with NPM (`npm install rbush`), or use CDN links for browsers:
-[rbush.js](https://unpkg.com/rbush@2.0.1/rbush.js),
-[rbush.min.js](https://unpkg.com/rbush@2.0.1/rbush.min.js)
+Install with NPM (`npm install @xyflow/rbush`).
 
 ## Usage
 
@@ -34,10 +34,7 @@ Install with NPM (`npm install rbush`), or use CDN links for browsers:
 
 ```js
 // as a ES module
-import RBush from 'rbush';
-
-// as a CommonJS module
-const RBush = require('rbush');
+import RBush from '@xyflow/rbush';
 ```
 
 ### Creating a Tree

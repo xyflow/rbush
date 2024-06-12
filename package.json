@@ -1,7 +1,7 @@
 {
-  "name": "rbush",
-  "version": "3.0.1",
-  "description": "High-performance 2D spatial index for rectangles (based on R*-tree with bulk loading and bulk insertion algorithms)",
+  "name": "rbushtest",
+  "version": "1.0.0",
+  "description": "Temporary fork of rbush by Vladimir Agafonkin with fixed dependencies. High-performance 2D spatial index for rectangles (based on R*-tree with bulk loading and bulk insertion algorithms)",
   "homepage": "https://github.com/mourner/rbush",
   "repository": {
     "type": "git",
@@ -33,16 +33,14 @@
     "tape": "^5.7.5"
   },
   "scripts": {
-    "pretest": "eslint index.js test/test.js bench/*.js",
-    "fix": "eslint --fix index.js test/test.js bench/*.js",
     "test": "tsc && node test/test.js",
     "perf": "node ./bench/perf.js",
     "cov": "c8 npm run test",
-    "build": "rollup -c",
-    "prepublishOnly": "npm run test && npm run build"
+    "build": "rollup -c"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "eslintConfig": {
     "extends": [
